@@ -1,15 +1,102 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-    <title>My Portfolio</title>
-    <link rel="stylesheet" href="style.css">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Riya Portfolio</title>
+<link rel="stylesheet" href="style.css">
 </head>
 <body>
 
-<h1>Hello, I'm Ridhi</h1>
-<p>Welcome to my Portfolio Website</p>
+<header>
+<nav>
+<h2>My Portfolio</h2>
 
-<script src="script.js"></script>
+<ul>
+<li><a href="#home">Home</a></li>
+<li><a href="#about">About</a></li>
+<li><a href="#skills">Skills</a></li>
+<li><a href="#projects">Projects</a></li>
+<li><a href="#contact">Contact</a></li>
+</ul>
 
-</body>
-</html>
+<button id="themeBtn">🌙</button>
+
+</nav>
+</header>
+
+<main>
+
+<section id="home">
+    <h1>Hello, I'm Ridhi <span id="typing"></span></h1>
+
+    <p>
+        B.Tech Computer Science & Artificial Intelligence Student
+    </p>
+
+    <a href="#projects" class="btn">View Projects</a>
+    <a href="#contact" class="btn">Contact Me</a>
+</section>
+
+<section id="about">
+<h2>About Me</h2>
+<p>
+Hello! I'm Ridhi, a B.Tech Computer Science & Artificial Intelligence (CSAI) student. I have a keen interest in technology, web development, and artificial intelligence. I enjoy learning new skills, building creative projects, and exploring innovative solutions through programming. My goal is to continuously improve my technical knowledge and create impactful digital experiences.
+</p>
+</section>
+
+<section id="skills">
+<h2>Skills</h2>
+<ul>
+<li>HTML5</li>
+<li>CSS3</li>
+<li>JavaScript (ES6)</li>
+<li>Responsive Web Design</li>
+<li>Problem Solving</li>
+</ul>
+</section>
+
+<footer>
+<p>© 2026 Ridhi | Portfolio Website</p>
+</footer>
+<section id="projects">
+    <h2>My Projects</h2>
+
+    <div class="card">
+        <h3>Personal Portfolio Website</h3>
+        <p>
+            A responsive portfolio website built using HTML, CSS, and JavaScript
+            to showcase my skills, projects, and achievements.
+        </p>
+    </div>
+
+    <div class="card">
+        <h3>Contact Form</h3>
+        <p>
+            A contact form with validation and local storage functionality
+            using JavaScript.
+        </p>
+    </div>
+
+    <div class="card">
+        <h3>Student Management System</h3>
+        <p>
+            A simple project to manage student records and information efficiently.
+        </p>
+    </div>
+</section>
+
+<section id="contact">
+    <h2>Contact Me</h2>
+
+    <form id="contactForm">
+    <input type="text" id="name" placeholder="Enter Name" required>
+    <input type="email" id="email" placeholder="Enter Email" required>
+    <textarea id="message" placeholder="Message"></textarea>
+    <button type="submit">Submit</button>
+</form>
+</section>
+
+<footer>
+    <p>Made with ❤️ by Ridhi | © 2026</p>
+</footer>
